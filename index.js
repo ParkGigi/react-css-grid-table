@@ -1,2 +1,2 @@
-export { default as Table } from './lib/Table';
-export * from './lib/Columns';
+export { default as Table } from './dist/Table';
+export * from './dist/Columns';
