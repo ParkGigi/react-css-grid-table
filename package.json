@@ -1,0 +1,13 @@
+{
+  "name": "react-css-grid-table",
+  "version": "0.0.1",
+  "description": "A CSS table component for React",
+  "main": "index.js",
+  "repository": "git@github.com:RebeccaPark/react-css-grid-table.git",
+  "author": "Rebecca Park",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.2.0"
+  }
+}
