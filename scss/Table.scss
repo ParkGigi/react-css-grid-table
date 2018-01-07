@@ -1,0 +1,18 @@
+.Table {
+    margin-top: 1.5em;
+    border: 1px solid #dfdfdf;
+    vertical-align: center;
+    display: grid;
+        
+    &__cell {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #dfdfdf;
+    }
+    
+    &__header {
+	background-color: #efefef;
+	padding: 10px 0;
+    }
+}

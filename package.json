@@ -1,6 +1,6 @@
 {
   "name": "react-css-grid-table",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CSS table component for React",
   "main": "dist",
   "repository": "git@github.com:RebeccaPark/react-css-grid-table.git",
