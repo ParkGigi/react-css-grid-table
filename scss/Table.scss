@@ -1,6 +1,8 @@
+@import './constants.scss'; 
+
 .Table {
-    margin-top: 1.5em;
-    border: 1px solid #dfdfdf;
+    margin-top: 1.5rem;
+    border: 1px solid $border-gray;
     vertical-align: center;
     display: grid;
         
@@ -8,11 +10,16 @@
 	display: flex;
 	align-items: center;
 	padding: 10px 0;
-	border-bottom: 1px solid #dfdfdf;
+	border-bottom: 1px solid $border-gray;
     }
     
     &__header {
-	background-color: #efefef;
+	background-color: $lightest-gray;
 	padding: 10px 0;
+    }
+    
+    &__action {
+	font-size: 0.9rem;
+	color: $primary-green;
     }
 }
