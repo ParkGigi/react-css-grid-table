@@ -16,7 +16,7 @@ yarn add https://github.com/RebeccaPark/react-css-grid-table
 
 ## Example
 
-```
+```js
 import Table, { IconColumn } from 'react-css-grid-table';
 
 const headers = [
