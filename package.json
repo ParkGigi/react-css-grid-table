@@ -1,7 +1,7 @@
 {
   "name": "react-css-grid-table",
-  "version": "0.0.4",
-  "description": "A CSS table component for React",
+  "version": "0.0.5",
+  "description": "A React table library using CSS Grid Layout",
   "main": "dist",
   "repository": "git@github.com:RebeccaPark/react-css-grid-table.git",
   "author": "Rebecca Park",
@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "babel lib --presets es2015 --presets react --out-dir dist",
-    "prepublish": "yarn run build"
+    "install": "yarn run build"
   },
   "dependencies": {
     "babel": "^6.23.0",
