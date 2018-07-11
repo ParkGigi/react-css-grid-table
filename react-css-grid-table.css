@@ -1,0 +1,28 @@
+.Table {
+    margin-top: 1.5rem;
+    border: 1px solid #e4e1e0;
+    vertical-align: center;
+    display: grid;
+}
+
+.Table__cell {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e4e1e0;
+}
+    
+.Table__header {
+    background-color: #efefef;
+    padding: 10px 0;
+}
+
+.Table__action {
+    font-size: 0.9rem;
+    color: #11bda9;
+}
+
+.IconColumn__icon {
+    font-size: 1.2em;
+    color: #d2cfcf;
+}

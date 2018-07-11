@@ -1,2 +1,2 @@
-export { default as Table } from './dist/Table';
-export * from './dist/Columns';
+exports = require('./dist/Table');
+exports.IconColumn = require('./dist/IconColumn');
