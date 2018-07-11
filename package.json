@@ -11,7 +11,7 @@
     "presets": ["es2015", "react"]
   },
   "scripts": {
-    "build": "babel lib --out-dir dist && yarn rollup index.js --file react-css-grid-table.js --format umd --name 'react-css-grid-table'",
+    "build": "babel lib --out-dir dist && yarn rollup",
     "install": "yarn build"
   },
   "dependencies": {
