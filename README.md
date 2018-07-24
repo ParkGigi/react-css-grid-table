@@ -1,12 +1,7 @@
 ## react-css-grid-table
 
 This is a React table library using [CSS
-grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout). I
-refactored it as a standalone component from a blog API project I've
-been working on. You can see an example of it being used in that app
-[here](https://github.com/RebeccaPark/BlogAPI/blob/master/api/static/admin/src/views/Posts.js).
-
-It depends on SCSS support so you'll need to have that configured.
+grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 ## Installation
 
@@ -14,12 +9,16 @@ It depends on SCSS support so you'll need to have that configured.
 yarn add https://github.com/RebeccaPark/react-css-grid-table
 ```
 
-## Example
+## JSBin example
+
+See [here](https://jsbin.com/sibojey/edit?html,js,output).
+
+## Webpack-style example
 
 ```js
 import Table, { IconColumn } from 'react-css-grid-table';
 
-const headers = [
+const columns = [
   {
     label: 'Title',
     value: 'title',
@@ -28,6 +27,8 @@ const headers = [
   {
     value: 'likes',
     width: '0.5fr',
+    className: 'anyAdditionalClassName',
+    format: (data) => <IconColumn icon="fa fa-heart" data={data} />, 
   },
 ];
 
@@ -42,16 +43,8 @@ const data = [
   },
 ];
 
-const customColumns = {
-  likes: {
-   format: (data) => <IconColumn icon="iconClassNameHere" data={data} />,
-   className: 'anyAdditionalClassName',
-  },
-};
-
 <Table
-  headers={headers}
+  columns={columns}
   data={data}
-  customColumns={customColumns}
 />
 ```
