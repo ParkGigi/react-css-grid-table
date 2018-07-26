@@ -1,8 +1,8 @@
 {
   "name": "react-css-grid-table",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A React table library using CSS Grid Layout",
-  "main": "dist",
+  "main": "dist/react-css-grid-table.js",
   "repository": "git@github.com:RebeccaPark/react-css-grid-table.git",
   "author": "Rebecca Park",
   "license": "MIT",
